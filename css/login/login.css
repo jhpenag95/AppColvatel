@@ -1,0 +1,19 @@
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.row {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h2 {
+     color: #01093D;
+     font-size: 40px;
+}
+
+.bg {
+    background-image: url(../../assets/images/img_login.jpg);
+    background-position: center center;
+    background-size: cover;
+}
