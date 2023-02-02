@@ -33,15 +33,15 @@
         <form action="#">
           <div class="mb-4">
             <label for="user" class="form-label">Usuario</label>
-            <input type="text" class="form-control" name="user" required>
+            <input type="text" class="form-control" name="user"  id="user"  required>
           </div>
           <div class="mb-4">
             <label for="email" class="form-label">Correo Electrónico</label>
-            <input type="email" class="form-control" name="email" required>
+            <input type="email" class="form-control" name="email" id="email"   required>
           </div>
           <div class="mb-4">
             <label for="password" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" name="password" required>
+            <input type="password" class="form-control" name="password" id="password" required>
           </div>
 
           <div class="d-grid">
