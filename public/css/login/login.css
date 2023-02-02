@@ -13,7 +13,7 @@ h2 {
 }
 
 .bg {
-    background-image: url(../../assets/images/img_login.jpg);
+    background-image: url(../../../assets/images/img_login.jpg);
     background-position: center center;
     background-size: cover;
 }

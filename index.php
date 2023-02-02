@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Hogar Digital</title>
   <!--Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;600&display=swap" rel="stylesheet">
   <!--My Styles-->
-  <link rel="stylesheet" href="css/login/login.css">
+  <link rel="stylesheet" href="public/css/login/login.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
         <h2 class="fw-bold text-center pt-5 mb-5">Ingresar</h2>
 
         <!--inputs Login-->
-        <form action="#">
+        <form action="servidor/login/logear.php" method="post">
           <div class="mb-4">
             <label for="user" class="form-label">Usuario</label>
             <input type="text" class="form-control" name="user"  id="user"  required>
