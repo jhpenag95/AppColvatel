@@ -5,7 +5,7 @@
     echo '
         <script>
             alert("Por favor debes iniciar sesion !!");
-            window.location="index.php";
+            window.location="../index.php";
         </script>
     ';
     session_destroy();
@@ -21,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hogar Digital-inicio</title>
   <!--My Styles-->
-  <link rel="stylesheet" href="/public/css/inicio/inicio.css">
+  <link rel="stylesheet" href="public/css/inicio/inicio.css">
   <!--Google font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,16 +42,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link fs-5 text-secondary" href="#">Ingresar Cliente</a>
+            <a class="nav-link fs-5 itemsnav" href="#">Ingresar Cliente</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-5 text-secondary" href="#">Cotización</a>
+            <a class="nav-link fs-5 itemsnav" href="#">Cotización</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-5 text-secondary" href="#">Ingersar Pago</a>
+            <a class="nav-link fs-5 itemsnav" href="#">Ingersar Pago</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-5 text-secondary" href="#">resumen de Datos</a>
+            <a class="nav-link fs-5 itemsnav" href="#">resumen de Datos</a>
           </li>
         </ul>
       </div>
@@ -62,38 +62,10 @@
     <h1 class="mt-5 mb-5 text-center">Hogar Digital Colvatel</h1>
     <h3 class="text-center">Tipo de Plan</h3>
   </div>
-  <div class="container d-flex justify-content-center mt-4">
-    <img src="assets/icons/icono-tipo-plan.gif" alt="" width="300px" height="300px">
-  </div>
-  <div class="container d-flex justify-content-center align-items-center mt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col d-flex justify-content-center align-items-center">
-          <div class="card border-success  text-center card-plan w-75 mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Plan Básico</h5>
-              <a href="views/basico.php" class="btn btn-success mt-4">Ingresar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col d-flex justify-content-center align-items-center">
-          <div class="card border-primary text-center card-plan w-75 mb-4">
-            <div class="card-body">
-              <h5>Plan Personalizado</h5>
-              <a href="#" class="btn btn-primary mt-4">Ingresar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
+  <div class="container">
 
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>

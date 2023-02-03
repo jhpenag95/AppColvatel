@@ -3,6 +3,10 @@ body {
     font-family: 'Kanit', sans-serif;
 }
 
+.my-custom-h1{
+    color: #01093D !important; 
+}
+
 .row {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
