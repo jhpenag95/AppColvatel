@@ -72,7 +72,7 @@
           <div class="card border-success  text-center card-plan w-75 mb-4">
             <div class="card-body">
               <h5 class="card-title">Plan Básico</h5>
-              <a href="views/basico.php" class="btn btn-success mt-4">Ingresar</a>
+              <a href="class/basico.php" class="btn btn-success mt-4">Ingresar</a>
             </div>
           </div>
         </div>
