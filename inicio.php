@@ -80,7 +80,7 @@
           <div class="card border-primary text-center card-plan w-75 mb-4">
             <div class="card-body">
               <h5>Plan Personalizado</h5>
-              <a href="#" class="btn btn-primary mt-4">Ingresar</a>
+              <a href="class/personalizado.php" class="btn btn-primary mt-4">Ingresar</a>
             </div>
           </div>
         </div>

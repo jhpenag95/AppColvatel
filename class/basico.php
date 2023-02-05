@@ -63,7 +63,7 @@
               }
             ?><!--permite saber donde esta la imagen de producto-->
 
-            <img src="<?php echo $imagen; ?>" alt="">
+            <img src="<?php echo $imagen; ?>" alt="" class="d-block w-100" height="280px">
             <div class="card-body">
               <h5 class="card-title"><?php echo $row['nombre_art'] ?></h5>
               <p class="card-text">
@@ -73,7 +73,7 @@
                 <div class="btn-group">
                   <a href="detalles.php?id=<?php echo $row['id']; ?>&token=<?php echo hash_hmac('sha1', $row['id'], KEY_TOKEN)?>" class="btn btn-primary">Detalle</a>
                 </div>
-                <a href="#" class="btn btn-success">Agregar</a>
+                <button class="btn btn-outline-success" type="button" onclick="addProducto(<?php echo $row['id']; ?>, '<?php echo hash_hmac('sha1', $row['id'], KEY_TOKEN)?>')">Agregar al Carrito</button>
               </div>
             </div>
           </div>
@@ -101,9 +101,13 @@
       </svg>
     </a>
   </div>
+
+  <!--Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+  <!--My Script-->  
+  <script src="../public/js/addProducto.js"></script>
 </body>
 
 </html>

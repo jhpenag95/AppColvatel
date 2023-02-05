@@ -13,7 +13,7 @@
           <li><a href="#" class="nav-link px-2 text-white">About</a></li>
         </ul>
         <div class="text-end">
-          <button type="button" class="btn btn-primary">Cotizar Compra</button>
+          <a href="resumen_cot.php" class="btn btn-primary"> Cotizar Compra <span id="num_cart" class="badge bg-secondary"><?php echo $num_card ?></span></a>
         </div>
       </div>
     </div>
