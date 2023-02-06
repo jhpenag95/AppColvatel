@@ -17,6 +17,8 @@ function addProducto(id, token) {
     })
 }
 
+
+
 /**
  * Esta es una función JavaScript llamada "addProducto". Toma dos parámetros: "id" y "token". La función usa la API Fetch para hacer una solicitud POST a un archivo PHP "carrito.php" ubicado en la carpeta "clases". La solicitud incluye dos parámetros de formulario de datos, "id" y "token", que se pasan a la función como argumentos. Se espera que la respuesta del servidor esté en formato JSON, que luego se devuelve como resultado de la promesa.
  */

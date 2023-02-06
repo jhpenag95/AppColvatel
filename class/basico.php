@@ -70,11 +70,11 @@
                 $ <?php echo number_format($row['precio'], 2, '.', ','); ?>
               </p>
               <div class="d-flex justify-content-center align-items-center">
-                <div class="btn-group">
+                <!-- <div class="btn-group">
                   <a href="detalles.php?id=<?php echo $row['id']; ?>&token=<?php echo hash_hmac('sha1', $row['id'], KEY_TOKEN)?>" class="btn btn-primary">Detalle</a>
-                </div>
+                </div> -->
                 <button class="btn btn-outline-success" type="button" onclick="addProducto(<?php echo $row['id']; ?>, '<?php echo hash_hmac('sha1', $row['id'], KEY_TOKEN)?>')">Agregar al Carrito</button>
-              </div>
+              </div> 
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@
 
 
   <!--Btn Cerrar sesión-->
-  <div>
+  <div class="mb-0">
     <a href="../class/cerrar_sesion.php" type="button"
       class="btn btn-outline-success z-1 position-absolute p-2 rounded-3 mx-2 mb">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left"
@@ -99,6 +99,7 @@
         <path fill-rule="evenodd"
           d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
       </svg>
+      Cerar Sesión
     </a>
   </div>
 
